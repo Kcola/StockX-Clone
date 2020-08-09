@@ -4,7 +4,7 @@ import { ParentElement } from "../Types";
 const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  background-color: blanchedalmond;
+  background-color: grey;
 `;
 function Header({ children }: ParentElement) {
   return <HeaderContainer>{children}</HeaderContainer>;
