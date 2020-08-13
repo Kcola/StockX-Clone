@@ -4,14 +4,11 @@ import Header from "../components/Header";
 import Body from "../components/Body";
 import BaseNav from "../components/BaseNav";
 import Footer from "../components/Footer";
-import logo from "../imgs/stockx_homepage_logo_white.png";
 
 function Home() {
   return (
     <PageLayout>
-      <Header>
-        <img src={logo}></img>
-      </Header>
+      <Header />
       <Body>
         <h3>Body</h3>
       </Body>
