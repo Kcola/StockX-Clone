@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { ParentElement } from "../../Types";
 import backgroundImage from "../../imgs/home_background.jpg";
-import HomeSearch from "../atomic components/HomeSearch";
+import Search from "../atomic components/Search";
 const BodyContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ function Body({ children }: ParentElement) {
         <HomeJumboContentContainer>
           <HomeTitles>Buy & Sell</HomeTitles>
           <SecondDiv>Authenticate Sneakers</SecondDiv>
-          <HomeSearch />
+          <Search placeholder="Search..." />
         </HomeJumboContentContainer>
       </HomeJumbo>
     </BodyContainer>
