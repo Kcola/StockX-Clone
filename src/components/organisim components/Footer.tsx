@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ParentElement } from "../Types";
+import { ParentElement } from "../../Types";
 const FooterContainer = styled.div`
   display: flex;
   background-color: lightblue;

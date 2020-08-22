@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { ParentElement } from "../Types";
-import logoLight from "../imgs/stockx_homepage_logo_white.png";
-import logoDark from "../imgs/stockx_homepage_logo_dark.png";
+import { ParentElement } from "../../Types";
+import logoLight from "../../imgs/stockx_homepage_logo_white.png";
+import logoDark from "../../imgs/stockx_homepage_logo_dark.png";
 const HeaderContainer = styled.div`
   display: flex;
   position: fixed;

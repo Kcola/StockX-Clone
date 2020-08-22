@@ -1,9 +1,9 @@
 import React from "react";
-import PageLayout from "../components/Layouts/PageLayout";
-import Header from "../components/Header";
-import Body from "../components/Body";
-import BaseNav from "../components/BaseNav";
-import Footer from "../components/Footer";
+import PageLayout from "../layout components/PageLayout";
+import Header from "../organisim components/Header";
+import Body from "../organisim components/Body";
+import BaseNav from "../organisim components/BaseNav";
+import Footer from "../organisim components/Footer";
 
 function Home() {
   return (
