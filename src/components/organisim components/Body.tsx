@@ -27,7 +27,7 @@ const HomeTitles = styled.div`
   letter-spacing: 2px;
   margin: auto auto 20px;
 `;
-const SecondDiv = styled(HomeTitles)`
+const HomeSecondDiv = styled(HomeTitles)`
   background-color: black;
   width: fit-content;
   margin: auto;
@@ -38,7 +38,7 @@ function Body({ children }: ParentElement) {
       <HomeJumbo>
         <HomeJumboContentContainer>
           <HomeTitles>Buy & Sell</HomeTitles>
-          <SecondDiv>Authenticate Sneakers</SecondDiv>
+          <HomeSecondDiv>Authenticate Sneakers</HomeSecondDiv>
           <Search placeholder="Search..." />
         </HomeJumboContentContainer>
       </HomeJumbo>
