@@ -5,9 +5,9 @@ const CatalogContainer = styled.div`
   font-family: proxima-nova, sans-serif;
   height: 100%;
   display: grid;
-  grid-template-rows: 300px 1fr 300px;
+  grid-template-columns: 238px 1fr 238px;
 `;
 function CatalogLayout({ children }: ParentElement) {
-  return <CatalogLayout>{children}</CatalogLayout>;
+  return <CatalogContainer>{children}</CatalogContainer>;
 }
 export default CatalogLayout;

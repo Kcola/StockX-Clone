@@ -4,6 +4,7 @@ import backgroundImage from "../../imgs/home_background.jpg";
 import Search from "../atomic components/Search";
 import CatalogLayout from "../layout components/CatalogLayout";
 import PopularBrands from "../sub-organism components/PopularBrands";
+import HomeCatalog from "../sub-organism components/HomeCatalog";
 const BodyContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -41,11 +42,11 @@ function HomeBody() {
           <HomeTitles>Buy & Sell</HomeTitles>
           <HomeSecondDiv>Authenticate Sneakers</HomeSecondDiv>
           <Search placeholder="Search..." />
-          <CatalogLayout>
-            <PopularBrands />
-          </CatalogLayout>
         </HomeJumboContentContainer>
       </HomeJumbo>
+      <CatalogLayout>
+        <HomeCatalog/>
+      </CatalogLayout>
     </BodyContainer>
   );
 }
