@@ -1,7 +1,7 @@
 import React from "react";
 import PageLayout from "../layout components/PageLayout";
 import Header from "../organisim components/Header";
-import Body from "../organisim components/Body";
+import HomeBody from "../organisim components/HomeBody";
 import BaseNav from "../organisim components/BaseNav";
 import Footer from "../organisim components/Footer";
 
@@ -9,9 +9,7 @@ function Home() {
   return (
     <PageLayout>
       <Header />
-      <Body>
-        <h3>Body</h3>
-      </Body>
+      <HomeBody />
       <BaseNav>
         <h3>BaseNav</h3>
       </BaseNav>
